@@ -1,5 +1,5 @@
 FROM sameersbn/squid
-MAINTAINER Francisco Ripoli <xico@ripoli.com.br>
+MAINTAINER github.com/dragfly
 
 COPY squid.conf /etc/squid3/squid.conf
 COPY squid-passwd /etc/squid3/squid-passwd
